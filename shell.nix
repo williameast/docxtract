@@ -2,7 +2,6 @@ with import <nixpkgs> {};
 let
   my-python-packages = python-packages: [
     python-packages.pip
-    python-packages.magic
   ];
   my-python = python37.withPackages my-python-packages;
 in

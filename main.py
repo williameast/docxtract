@@ -11,6 +11,8 @@ filename = sys.argv[1]
 # set name of the temporary directory to extract to.
 tempdir = "Embedded"
 
+# tempdir = sys.argv[2]
+
 # list of accepted filetypes.
 accepted_types = [".doc", ".docx"]
 
